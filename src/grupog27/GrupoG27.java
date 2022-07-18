@@ -11,6 +11,7 @@ public class GrupoG27 {
     public static double area_rectangulo(double base, double altura) {
         double resultado = base * altura;
         return resultado;
+        
     }
 
 }
