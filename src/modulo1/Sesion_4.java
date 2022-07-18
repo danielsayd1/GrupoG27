@@ -1,8 +1,8 @@
-package grupog27;
+package modulo1;
 
 import java.util.Scanner;
 
-public class Sesion4 {
+public class Sesion_4 {
 
     public static void main(String[] args) {
         //ejemplo_arreglo();

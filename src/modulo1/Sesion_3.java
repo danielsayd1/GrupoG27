@@ -1,8 +1,8 @@
-package grupog27;
+package modulo1;
 
 import java.util.Scanner;
 
-public class Session3 {
+public class Sesion_3 {
 
     public static void main(String[] args) {
         /*Scanner lector = new Scanner(System.in);

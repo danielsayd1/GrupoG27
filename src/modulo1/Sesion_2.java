@@ -1,8 +1,8 @@
-package grupog27;
+package modulo1;
 
 import java.util.Scanner;
 
-public class Prueba2 {
+public class Sesion_2 {
 
     public static void main(String[] args) {
         saludar();
