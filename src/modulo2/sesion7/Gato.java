@@ -62,4 +62,9 @@ public class Gato extends Animal {
         System.out.println("mmmm");
     }
 
+    @Override
+    public String toString() {
+        return "Gato {" + "nombre=" + nombre + ", Color=" + this.getColor() + '}';
+    }
+
 }
