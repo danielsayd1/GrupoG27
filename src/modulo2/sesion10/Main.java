@@ -121,6 +121,24 @@ class Agenda {
 
     public Agenda(HashMap<Integer, Persona> listaPersonas) {
         this.listaPersonas = listaPersonas;
+
+        iniciarItems();
+    }
+
+    public double generarInforme() {
+        double valorInventario = 0;
+        for (Persona p : listaPersonas.values()) {
+            //valorInventario = p.getDireccion()+p.getTelefono();
+        }
+
+        return valorInventario;
+    }
+
+    private void iniciarItems() {
+        this.agregar(1, "Carlos", "Calle falsa", "123");
+        this.agregar(2, "Marta", "Carrera  falsa", "123123");
+        this.agregar(3, "Ana", "Av falsa", "3444");
+        this.agregar(4, "Susan", " falsa", "123999");
     }
 
     public boolean verificarExistencia(int id) {
@@ -161,9 +179,6 @@ class Agenda {
         }
     }
 
-    public Integer generarInforme() {
-        return listaPersonas.size();
-    }
 
     @Override
     public String toString() {
